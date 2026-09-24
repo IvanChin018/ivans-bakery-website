@@ -717,7 +717,7 @@
             .hero-content { padding: 0 5%; }
             .hero h1 { font-size: 2.5rem; }
             
-            /* FIX 1: Hero buttons same width */
+            /* Hero buttons: same width, stacked on mobile */
             .hero-buttons { 
                 flex-direction: column; 
                 width: 100%; 
@@ -732,16 +732,6 @@
             .stat h3 { font-size: 1.6rem; }
             .stat p { font-size: 0.75rem; }
             
-            /* FIX 2: Products header centered on mobile */
-            .products-header {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-            .products-header .btn-primary {
-                margin: 0 auto;
-            }
-            
             .products-grid { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; }
             .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, 180px); }
             .gallery-item:nth-child(1) { grid-column: span 2; }
@@ -749,7 +739,7 @@
             .testimonial-card blockquote { font-size: 1.1rem; }
             .marquee-item { font-size: 1.2rem; padding: 0 1.5rem; }
             
-            /* FIX 3: Footer centered on mobile */
+            /* Footer centered on mobile */
             .footer-grid {
                 text-align: center;
             }
